@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Tactic Sans';
+  src: url('./Tactic.ttf');
+}
+@font-face {
+  font-family: 'Tactic Bold';
+  src: url('./TacticBold.ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}

@@ -1,0 +1,155 @@
+.main_container {
+  display: flex;
+}
+.filter_blocks {
+  margin-left: 11.41vw;
+  width: 26.04vw;
+  border-bottom: 1px solid #9AA7AD;
+  padding-bottom: 2vw;
+}
+.title {
+  margin-top: 5.21vw;
+  margin-left: 11.41vw;
+  font-family: 'Tactic Bold';
+  font-style: normal;
+  font-size: 2.08vw;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #010C13;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.filter_title {
+  margin-top: 4.69vw;
+  font-family: 'Tactic Sans';
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1.46vw;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #010C13;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.btns_container {
+  display: flex;
+  margin-top: 1.46vw;
+}
+.active_btn {
+  cursor: pointer;
+  margin-right: 0.5vw;
+  font-size: 0.83vw;
+  line-height: 1.25vw;
+  padding: 0.42vw 1.04vw;
+  background: #A9A9A9;
+  border: 2px solid #010C13;
+  border-radius: 8px;
+  font-family: 'Tactic Sans';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.btn {
+  cursor: pointer;
+  margin-right: 0.5vw;
+  font-size: 0.83vw;
+  line-height: 1.25vw;
+  padding: 0.42vw 1.04vw;
+  background: #ffffff;
+  border: 2px solid #010C13;
+  border-radius: 8px;
+  font-family: 'Tactic Sans';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.showroom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2.19vw; 
+  margin-top: 5.21vw;
+  margin-left: 3.13vw;
+}
+.car_block {
+  display: flex;
+  flex-direction: column;
+  width: 22.92vw;
+  height: 29.22vw;
+  margin-bottom: 2.08vw;
+}
+.car_image {
+  background-size: cover;
+  width: 22.92vw;
+  height: 15.21vw;
+}
+.car_title {
+  font-family: 'Tactic Bold';
+  font-style: normal;
+  font-size: 1.52vw;
+  line-height: 140%;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #010C13;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  white-space: nowrap;
+}
+.car_options {
+  font-family: 'Tactic Bold';
+  font-style: normal;
+  font-size: 1.37vw;
+  line-height: 140%;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #010C13;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.car_technique {
+  margin-top: auto;
+  margin-bottom: 0.63vw;
+  font-family: 'Tactic Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.43vw;
+  line-height: 140%;
+  text-align: left;
+  letter-spacing: 0.02em;
+  color: #9AA7AD;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.card_btn {
+  cursor: pointer;
+  font-family: 'Tactic Sans';
+  margin-top: auto;
+  margin-bottom: 1.46vw;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.46vw;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  width: 22.92vw;
+  height: 4.17vw;
+  background: #CA0100;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border: none;
+}
