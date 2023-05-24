@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import css from './Main.module.css';
+import CarPage from '../carPage/CarPage';
 
 export default function Main() {
   const [activeBtn, setActiveBtn] = useState(false);
   const [carData, setCarData] = useState([]);
+  const [selectedCar, setSelectedCar] = useState(null);
 
   const handleButtonClick = (index) => {
     setActiveBtn(index);
@@ -20,6 +22,20 @@ export default function Main() {
       })
       .catch((error) => console.log(error));
   };
+
+  const handleCardClick = (carIndex) => {
+    setSelectedCar(carData[carIndex]);
+  };
+
+  const handleBack = () => {
+    setSelectedCar(null);
+  };
+
+  if (selectedCar) {
+    return (
+      <CarPage car={selectedCar} onBack={handleBack} />
+    );
+  }
   return (
     <div className={css.main}>
       <h1 className={css.title}>Автомобили Chery в СПб</h1>
@@ -75,11 +91,11 @@ export default function Main() {
         <div className={css.showroom}>
           {carData.map((car, index) => (
             <div key={index} className={css.car_block}>
-              <img src={car.photobank.imgs[0].urlThumb} className={css.car_image} alt={`brand`}/>
+              <img src={car.photobank.imgs[0].urlThumb} className={css.car_image} alt={`brand`} />
               <div className={css.car_title}>{car.feedData.brandName} {car.feedData.modelName}</div>
               <div className={css.car_options}>{car.feedData.equipmentName} {car.feedData.equipmentVariantTransmission}</div>
               <div className={css.car_technique}>{car.feedData.engine.engineCapacity} / {car.feedData.engine.enginePower} / {car.feedData.engine.engineTransmission}</div>
-              <button className={css.card_btn}>Подробнее</button>
+              <button className={css.card_btn} onClick={() => handleCardClick(index)}>Подробнее</button>
             </div>
           ))}
         </div>

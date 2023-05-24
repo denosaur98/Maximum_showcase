@@ -6,6 +6,10 @@
   font-family: 'Tactic Bold';
   src: url('./TacticBold.ttf');
 }
+@font-face {
+  font-family: 'Roboto Flex';
+  src: url('./RobotoFlex.ttf');
+}
 * {
   margin: 0;
   padding: 0;

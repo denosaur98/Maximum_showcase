@@ -1,0 +1,237 @@
+.car_page {
+  display: flex;
+  justify-content: space-between;
+}
+.car_info {
+  margin-top: 4.17vw;
+  margin-left: 11.41vw;
+}
+.car_title {
+  font-family: 'Tactic Bold';
+  white-space: nowrap;
+  font-weight: 400;
+  font-size: 2.08vw;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #010C13;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.vin {
+  margin-top: 1.04vw;
+  font-family: 'Tactic Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.83vw;
+  line-height: 150%;
+  text-align: left;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #9AA7AD;
+}
+.price_container {
+  margin-top: 4.17vw;
+  width: 32.60vw;
+  height: 4.27vw;
+  background: #F4F7F8;
+  border-radius: 0.63vw;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: 'Tactic Bold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.67vw;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #CA0100;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-left: 2.08vw;
+}
+.rub {
+  font-family: 'Roboto Flex';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.67vw;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  color: #CA0100;
+  font-stretch: 151;
+  font-variation-settings: 'GRAD' 150, 'slnt' 0, 'XTRA' 603, 'XOPQ' 96, 'YOPQ' 79, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.guarantee_container {
+  margin-top: 1.04vw;
+  width: 32.60vw;
+  height: 4.27vw;
+  background: #F4F7F8;
+  border-radius: 0.63vw;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: 'Tactic Sans';
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.46vw;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #010C13;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-left: 2.08vw;
+}
+.guarantee_img {
+  background-image: url('./Vector.png');
+  background-size: cover;
+  height: 1.91vw;
+  width: 1.35vw;
+  margin-right: 1.38vw;
+}
+.char {
+  margin-top: 3.13vw;
+  font-family: 'Tactic Bold';
+  font-style: normal;
+  font-size: 2.08vw;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #010C13;
+}
+.tech_container {
+  position: absolute;
+  align-items: center;
+  margin-top: 1.56vw;
+  padding: 3.13vw;
+  width: 28vw;
+  height: 15.5vw;
+  background: #F4F7F8;
+  border-radius: 0.83vw;
+}
+.tech_info {
+  font-family: 'Tactic Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.46vw;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #010C13;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.info_tech_container {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 1.04vw;
+}
+.year_img {
+  background-image: url('./1.png');
+  background-size: cover;
+  margin-right: 2.24vw;
+  width: 4.38vw;
+  height: 4.38vw;
+}
+.technique_img {
+  background-image: url('./2.png');
+  background-size: cover;
+  margin-right: 2.24vw;
+  width: 4.38vw;
+  height: 4.38vw;
+}
+.transmission_img {
+  background-image: url('./3.png');
+  background-size: cover;
+  margin-right: 2.24vw;
+  width: 4.38vw;
+  height: 4.38vw;
+}
+.car_photo_container {
+  margin-top: 13.54vw;
+  margin-right: 8.75vw;
+}
+.car_image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0.83vw;
+  width: 45.63vw;
+  height: 37.45vw;
+}
+.sale_container {
+  display: flex;
+  margin-top: 4.32vw;
+  width: 100%;
+  height: 43.54vw;
+  background: linear-gradient(102.95deg, #00A8CD 62.03%, #047DBF 110.97%);
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.sale_info_container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 9.5vw;
+  margin-top: 5.85vw;
+}
+.sale_title {
+  white-space: nowrap;
+  font-family: 'Tactic Bold';
+  font-style: normal;
+  font-size: 2.08vw;
+  line-height: 140%;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.sale_info {
+  margin-top: 3.13vw;
+  text-align: left;
+  height: 8.13vw;
+  width: 30.84vw;
+  font-family: 'Tactic Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.46vw;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+.sale_btn {
+  cursor: pointer;
+  margin-top: 3.13vw;
+  width: 22.92vw;
+  height: 4.17vw;
+  background: #CA0100;
+  border-radius: 0.42vw;
+  font-family: 'Tactic Bold';
+  font-style: normal;
+  font-size: 1.46vw;
+  line-height: 120%;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  border: none;
+}
+.car_img {
+  background-image: url('./car.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 96.98vw;
+  height: 42.30vw;  
+  margin-left: -50vw;
+}
