@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Maximum_showcase/Main/static/css/main.799b4014.css",
-    "main.js": "/Maximum_showcase/Main/static/js/main.cdd19464.js",
-    "static/media/RobotoFlex.ttf": "/Maximum_showcase/Main/static/media/RobotoFlex.955a45710a05f0a8ca4f.ttf",
-    "static/media/car.png": "/Maximum_showcase/Main/static/media/car.2b35d8539f96ffb54d75.png",
-    "static/media/Tactic.ttf": "/Maximum_showcase/Main/static/media/Tactic.76bdbbefebe1f0ab79d2.ttf",
-    "static/media/TacticBold.ttf": "/Maximum_showcase/Main/static/media/TacticBold.f0c50bfb11bf73a501b0.ttf",
-    "index.html": "/Maximum_showcase/Main/index.html",
-    "main.799b4014.css.map": "/Maximum_showcase/Main/static/css/main.799b4014.css.map",
-    "main.cdd19464.js.map": "/Maximum_showcase/Main/static/js/main.cdd19464.js.map"
+    "main.css": "/Maximum_showcase/static/css/main.4883c947.css",
+    "main.js": "/Maximum_showcase/static/js/main.c449356d.js",
+    "static/media/RobotoFlex.ttf": "/Maximum_showcase/static/media/RobotoFlex.955a45710a05f0a8ca4f.ttf",
+    "static/media/car.png": "/Maximum_showcase/static/media/car.2b35d8539f96ffb54d75.png",
+    "static/media/Tactic.ttf": "/Maximum_showcase/static/media/Tactic.76bdbbefebe1f0ab79d2.ttf",
+    "static/media/TacticBold.ttf": "/Maximum_showcase/static/media/TacticBold.f0c50bfb11bf73a501b0.ttf",
+    "index.html": "/Maximum_showcase/index.html",
+    "main.4883c947.css.map": "/Maximum_showcase/static/css/main.4883c947.css.map",
+    "main.c449356d.js.map": "/Maximum_showcase/static/js/main.c449356d.js.map"
   },
   "entrypoints": [
-    "static/css/main.799b4014.css",
-    "static/js/main.cdd19464.js"
+    "static/css/main.4883c947.css",
+    "static/js/main.c449356d.js"
   ]
 }
