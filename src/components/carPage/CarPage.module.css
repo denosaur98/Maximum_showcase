@@ -1,6 +1,7 @@
 .car_page {
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 .car_info {
   margin-top: 4.17vw;
@@ -136,7 +137,6 @@
 .info_tech_container {
   display: flex;
   align-items: center;
-
   margin-bottom: 1.04vw;
 }
 .year_img {
