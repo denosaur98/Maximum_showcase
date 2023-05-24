@@ -1,12 +1,13 @@
-import React from 'react'
-import css from './Header.module.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import css from './Header.module.css';
 
 export default function Header() {
-  return(
+  return (
     <div className={css.header}>
-      <div className={css.logo}></div>
+      <Link to="/" className={css.logo}></Link>
       <p className={css.line}>|</p>
       <p className={css.text}>Официальный дилер Максимум</p>
-    </div>  
-  )
+    </div>
+  );
 }

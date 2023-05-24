@@ -169,11 +169,11 @@
   background-repeat: no-repeat;
   border-radius: 0.83vw;
   width: 45.63vw;
-  height: 37.45vw;
+  height: 32.45vw;
 }
 .sale_container {
   display: flex;
-  margin-top: 4.32vw;
+  margin-top: 10.32vw;
   width: 100%;
   height: 43.54vw;
   background: linear-gradient(102.95deg, #00A8CD 62.03%, #047DBF 110.97%);
@@ -226,12 +226,13 @@
   letter-spacing: 0.04em;
   color: #FFFFFF;
   border: none;
+  z-index: 999;
 }
 .car_img {
   background-image: url('./car.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 96.98vw;
-  height: 42.30vw;  
+  height: 42.30vw;
   margin-left: -50vw;
 }

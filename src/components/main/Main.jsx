@@ -1,11 +1,13 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"
 import css from './Main.module.css';
-import CarPage from '../carPage/CarPage';
 
 export default function Main() {
   const [activeBtn, setActiveBtn] = useState(false);
   const [carData, setCarData] = useState([]);
   const [selectedCar, setSelectedCar] = useState(null);
+  const navigate = useNavigate();
+
 
   const handleButtonClick = (index) => {
     setActiveBtn(index);
@@ -25,17 +27,9 @@ export default function Main() {
 
   const handleCardClick = (carIndex) => {
     setSelectedCar(carData[carIndex]);
+    navigate(`/CarPage/${carData[carIndex].id}`, { state: { car: carData[carIndex] } });
   };
-
-  const handleBack = () => {
-    setSelectedCar(null);
-  };
-
-  if (selectedCar) {
-    return (
-      <CarPage car={selectedCar} onBack={handleBack} />
-    );
-  }
+  
   return (
     <div className={css.main}>
       <h1 className={css.title}>Автомобили Chery в СПб</h1>

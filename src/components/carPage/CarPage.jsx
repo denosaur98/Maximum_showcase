@@ -1,7 +1,17 @@
-import React from "react";
+import React from 'react';
+import { useLocation } from 'react-router-dom';
 import css from './CarPage.module.css';
 
-export default function CarPage({ car }) {
+export default function CarPage() {
+  const location = useLocation();
+  const { car } = location.state || {};
+  if (!car) {
+    return (
+      <div className={css.car_page}>
+        <p>Car not found.</p>
+      </div>
+    );
+  }
   return (
       <>
         <div className={css.car_page}>
