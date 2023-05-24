@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 import css from './Main.module.css';
 
 export default function Main() {
@@ -7,7 +7,6 @@ export default function Main() {
   const [carData, setCarData] = useState([]);
   const [selectedCar, setSelectedCar] = useState(null);
   const navigate = useNavigate();
-
 
   const handleButtonClick = (index) => {
     setActiveBtn(index);
@@ -27,7 +26,8 @@ export default function Main() {
 
   const handleCardClick = (carIndex) => {
     setSelectedCar(carData[carIndex]);
-    navigate(`/CarPage/${carData[carIndex].id}`, { state: { car: carData[carIndex] } });
+    const brandName = carData[carIndex].feedData.brandName.toLowerCase();
+    navigate(`/CarPage/${brandName}`, { state: { car: carData[carIndex] } });
   };
   
   return (
