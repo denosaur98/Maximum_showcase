@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Maximum_showcase/static/css/main.4883c947.css",
-    "main.js": "/Maximum_showcase/static/js/main.d1f39df3.js",
-    "static/media/RobotoFlex.ttf": "/Maximum_showcase/static/media/RobotoFlex.955a45710a05f0a8ca4f.ttf",
-    "static/media/car.png": "/Maximum_showcase/static/media/car.2b35d8539f96ffb54d75.png",
-    "static/media/Tactic.ttf": "/Maximum_showcase/static/media/Tactic.76bdbbefebe1f0ab79d2.ttf",
-    "static/media/TacticBold.ttf": "/Maximum_showcase/static/media/TacticBold.f0c50bfb11bf73a501b0.ttf",
-    "index.html": "/Maximum_showcase/index.html",
-    "main.4883c947.css.map": "/Maximum_showcase/static/css/main.4883c947.css.map",
-    "main.d1f39df3.js.map": "/Maximum_showcase/static/js/main.d1f39df3.js.map"
+    "main.css": "/static/css/main.7aba5da0.css",
+    "main.js": "/static/js/main.d1f39df3.js",
+    "static/media/RobotoFlex.ttf": "/static/media/RobotoFlex.955a45710a05f0a8ca4f.ttf",
+    "static/media/car.png": "/static/media/car.2b35d8539f96ffb54d75.png",
+    "static/media/Tactic.ttf": "/static/media/Tactic.76bdbbefebe1f0ab79d2.ttf",
+    "static/media/TacticBold.ttf": "/static/media/TacticBold.f0c50bfb11bf73a501b0.ttf",
+    "index.html": "/index.html",
+    "main.7aba5da0.css.map": "/static/css/main.7aba5da0.css.map",
+    "main.d1f39df3.js.map": "/static/js/main.d1f39df3.js.map"
   },
   "entrypoints": [
-    "static/css/main.4883c947.css",
+    "static/css/main.7aba5da0.css",
     "static/js/main.d1f39df3.js"
   ]
 }
