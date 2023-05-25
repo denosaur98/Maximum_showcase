@@ -7,11 +7,11 @@ import css from './App.css';
 
 export default function App() {
   return (
-    <BrowserRouter className={css.app}>
+    <BrowserRouter basename="/Maximum_showcase" className={css.app}>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Main />} />
-        <Route path="/CarPage/:carId" element={<CarPage />} />
+        <Route path="/" element={<Main/>}/>
+        <Route path="/CarPage/:carId" element={<CarPage/>}/>
       </Routes>
     </BrowserRouter>
   );
